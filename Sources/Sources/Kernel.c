@@ -10,7 +10,7 @@
 /*!
  * $Source: Kernel.c $
  * $Revision: 1.0 $
- * $Author: author $
+ * $Author: Edgar Escayola Vinagre $
  * $Date: 17-11-2015 $
  */
 /*============================================================================*/
@@ -50,20 +50,6 @@
 /*============================================================================*/
 
 #include "kernel.h"
-
-/* Constants and types  */
-/*============================================================================*/
-const S_STAT cas_STAT[E_TSK_N_OF] = {/*	Function Pointer	-	Period 	-	  Offset	*/
-		
-		{		Task_1,		101,		0		},
-		{		Task_2,		211,		1		},
-		{		Task_3,		409,		2		},
-		{		Task_4,		797,		3		}
-		
-		/*	Add here your new task and a comma before the last one	*/			
-		/*	{	Function Pointer	,	Period	,		Offset	}	*/	
-
-};
 
 /* Variables */
 /*============================================================================*/

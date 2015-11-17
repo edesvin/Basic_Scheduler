@@ -4,10 +4,10 @@
 /*                        OBJECT SPECIFICATION                                */
 /*============================================================================*/
 /*!
- * $Source: filename.x $
- * $Revision: version $
- * $Author: author $
- * $Date: date $
+ * $Source: Init_Tasks.h $
+ * $Revision: 1.0 $
+ * $Author: Edgar Escayola Vinagre $
+ * $Date: 17-11-2015 $
  */
 /*============================================================================*/
 /* DESCRIPTION :                                                              */
@@ -39,13 +39,14 @@
 /*                               OBJECT HISTORY                               */
 /*============================================================================*/
 /*
- * $Log: filename.h  $
+ * $Log: Init_Tasks.h  $
   ============================================================================*/
 #ifndef INIT_TASK_H_
 #define INIT_TASK_H_
 /* Includes */
 /*============================================================================*/
 #include "stdtypedef.h"
+#include "Tasks.h"
 /* Constants and types */
 /*============================================================================*/
 typedef enum{

@@ -4,10 +4,10 @@
 /*                        OBJECT SPECIFICATION                                */
 /*============================================================================*/
 /*!
- * $Source: filename.c $
- * $Revision: version $
- * $Author: author $
- * $Date: date $
+ * $Source: Tasks.c $
+ * $Revision: 1.0 $
+ * $Author: Adrián Zacarías Siete $
+ * $Date: 17-11-2015 $
  */
 /*============================================================================*/
 /* DESCRIPTION :                                                              */
@@ -39,32 +39,32 @@
 /*                               OBJECT HISTORY                               */
 /*============================================================================*/
 /*
- * $Log: filename.c  $
+ * $Log: Tasks.c  $
   ============================================================================*/
 
 /* Includes */
 /*============================================================================*/
 #include "Tasks.h"
 /*============================================================================*/
-void Task_1(void){
+void Task_0(void){
 
 	SIU.GPDO[68].B.PDO = !SIU.GPDO[68].B.PDO;
 
 }
 
-void Task_2(void){
+void Task_1(void){
 
 	SIU.GPDO[69].B.PDO = !SIU.GPDO[69].B.PDO;
 
 }
 
-void Task_3(void){
+void Task_2(void){
 
 	SIU.GPDO[70].B.PDO = !SIU.GPDO[70].B.PDO;
 
 }
 
-void Task_4(void){
+void Task_3(void){
 
 	SIU.GPDO[71].B.PDO = !SIU.GPDO[71].B.PDO;
 

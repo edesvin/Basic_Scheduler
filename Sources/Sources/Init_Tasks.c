@@ -4,10 +4,10 @@
 /*                        OBJECT SPECIFICATION                                */
 /*============================================================================*/
 /*!
- * $Source: filename.c $
- * $Revision: version $
- * $Author: author $
- * $Date: date $
+ * $Source: Init_Tasks.c $
+ * $Revision: 1.0 $
+ * $Author: Edgar Escayola Vinagre $
+ * $Date: 17-11-2015 $
  */
 /*============================================================================*/
 /* DESCRIPTION :                                                              */
@@ -39,12 +39,24 @@
 /*                               OBJECT HISTORY                               */
 /*============================================================================*/
 /*
- * $Log: filename.c  $
+ * $Log: Init_Tasks.c  $
   ============================================================================*/
 
 /* Includes */
 /*============================================================================*/
 #include"Init_Tasks.h"
+/*============================================================================*/
+const S_STAT cas_STAT[E_TSK_N_OF] = {/*	Function Pointer	-	Period 	-	  Offset	*/
+		
+		{		Task_0,		101,		0		},
+		{		Task_1,		211,		1		},
+		{		Task_2,		409,		2		},
+		{		Task_3,		797,		3		}
+		
+		/*	Add here your new task and a comma before the last one	*/			
+		/*	{	Function Pointer	,	Period	,		Offset	}	*/	
+
+};
 /*============================================================================*/
 void Global_Init(void){
 

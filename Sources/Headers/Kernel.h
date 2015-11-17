@@ -6,7 +6,7 @@
 /*!
  * $Source: Kernel.h $
  * $Revision: 1.0 $
- * $Author: author $
+ * $Author: Edgar Escayola Vinagre $
  * $Date: 17-11-2015 $
  */
 /*============================================================================*/
@@ -51,6 +51,8 @@
 #include "Tasks.h"
 #include "HAL.h"
 #include "Init_Tasks.h"
+
+extern const S_STAT cas_STAT[E_TSK_N_OF];
 /* Exported functions prototypes */
 /*============================================================================*/
 void ISR_Tick(void);

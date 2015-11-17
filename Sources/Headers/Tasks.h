@@ -4,10 +4,10 @@
 /*                        OBJECT SPECIFICATION                                */
 /*============================================================================*/
 /*!
- * $Source: filename.x $
- * $Revision: version $
- * $Author: author $
- * $Date: date $
+ * $Source: Tasks.h $
+ * $Revision: 1.0 $
+ * $Author: Adrián Zacarías Siete $
+ * $Date: 17-11-2015 $
  */
 /*============================================================================*/
 /* DESCRIPTION :                                                              */
@@ -39,7 +39,7 @@
 /*                               OBJECT HISTORY                               */
 /*============================================================================*/
 /*
- * $Log: filename.h  $
+ * $Log: Tasks.h  $
   ============================================================================*/
 #ifndef TASKS_H_
 #define TASKS_H_
@@ -48,9 +48,11 @@
 #include "MPC5606B.h"
 /* Exported functions prototypes */
 /*============================================================================*/
+void Task_0(void);
 void Task_1(void);
 void Task_2(void);
 void Task_3(void);
-void Task_4(void);
+
+/*Add here the prototype of your new task*/
 
 #endif /* TASKS_H_ */
