@@ -12,10 +12,10 @@
 /*============================================================================*/
 /* DESCRIPTION :                                                              */
 /** \file
-    short description in one sentence end with dot.
-    detailed
-    multiline
-    description of the file
+		This file contains the global initializations.
+		
+		It contains the array that has the description of the tasks: 
+		function pointers, periods and offsets. Also the software initializations.
 */
 /*============================================================================*/
 /* COPYRIGHT (C) CONTINENTAL AUTOMOTIVE 2014                                  */

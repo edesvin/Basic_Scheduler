@@ -12,10 +12,10 @@
 /*============================================================================*/
 /* DESCRIPTION :                                                              */
 /** \file
-    short description in one sentence end with dot.
-    detailed
-    multiline
-    description of the file
+		This file contains the prototypes of the HAL.
+		
+		It contains the initialization of clocks, timers, GPIOs and interrupts
+		used in the main application.
 */
 /*============================================================================*/
 /* COPYRIGHT (C) CONTINENTAL AUTOMOTIVE 2014                                  */
