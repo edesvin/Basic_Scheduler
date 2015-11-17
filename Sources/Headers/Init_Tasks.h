@@ -70,6 +70,6 @@ typedef struct{
 }S_STAT;
 /*============================================================================*/
 
-void Global_Init(void);
+extern void Global_Init(void);
 
 #endif /* INIT_TASK_H_ */

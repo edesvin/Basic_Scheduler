@@ -45,10 +45,10 @@
 #include "MPC5606B.h"
 /* Exported functions prototypes */
 /*============================================================================*/
-void Task_0(void);
-void Task_1(void);
-void Task_2(void);
-void Task_3(void);
+extern void Task_0(void);
+extern void Task_1(void);
+extern void Task_2(void);
+extern void Task_3(void);
 
 /*Add here the prototype of your new task*/
 

@@ -59,6 +59,6 @@ void Init_ISR(void);
 void Init_PIT(void);
 void Init_PIT_CH0(T_ULONG LDVALOR_0);
 void init_GPIO(void);
-void All_Init(void);
+extern void All_Init(void);
 
 #endif /* HAL_H_ */
