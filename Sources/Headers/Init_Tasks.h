@@ -49,6 +49,7 @@
 /* Constants and types */
 /*============================================================================*/
 typedef enum{
+	
 	E_TSK_TASK0,
 	E_TSK_TASK1,
 	E_TSK_TASK2,
@@ -61,15 +62,14 @@ typedef enum{
 }E_TASKS;
 /*============================================================================*/
 typedef struct{
+	
 	void(*F_Pointer)(void);		/*	Function Pointer	*/	
 	T_UWORD uw_T;				/* 	Period				*/
 	T_UWORD uw_Offset;			/*	Offset				*/
 	
 }S_STAT;
 /*============================================================================*/
-extern const S_STAT cas_STAT[E_TSK_N_OF];
-extern volatile T_UWORD raub_DynConuter[E_TSK_N_OF];
-/*============================================================================*/
+
 void Global_Init(void);
 
 #endif /* INIT_TASK_H_ */

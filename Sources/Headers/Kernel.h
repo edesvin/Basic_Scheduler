@@ -44,12 +44,9 @@
 /*============================================================================*/
 #include "MPC5606B.h"
 #include "stdtypedef.h"
-#include "IntcInterrupts.h"
-#include "Tasks.h"
 #include "HAL.h"
 #include "Init_Tasks.h"
 
-extern const S_STAT cas_STAT[E_TSK_N_OF];
 /* Exported functions prototypes */
 /*============================================================================*/
 void ISR_Tick(void);

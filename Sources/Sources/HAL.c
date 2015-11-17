@@ -69,7 +69,7 @@ void Init_PIT(void){
 	
 }
 /*============================================================================*/
-void Init_PIT_CH0(uint32_t LDVALOR_0){
+void Init_PIT_CH0(T_ULONG LDVALOR_0){
 
 	PIT.CH[0].LDVAL.R = LDVALOR_0;	
 	PIT.CH[0].TCTRL.B.TEN = 1;		

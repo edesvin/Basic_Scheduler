@@ -44,7 +44,9 @@
 
 /* Includes */
 /*============================================================================*/
-#include"Init_Tasks.h"
+#include "Init_Tasks.h"
+/*============================================================================*/
+extern volatile T_UWORD raub_DynConuter[E_TSK_N_OF];
 /*============================================================================*/
 const S_STAT cas_STAT[E_TSK_N_OF] = {/*	Function Pointer	-	Period 	-	  Offset	*/
 		
@@ -58,6 +60,7 @@ const S_STAT cas_STAT[E_TSK_N_OF] = {/*	Function Pointer	-	Period 	-	  Offset	*/
 
 };
 /*============================================================================*/
+
 void Global_Init(void){
 
 	T_UWORD luw_i;

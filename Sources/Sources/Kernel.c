@@ -50,9 +50,11 @@
 
 /* Variables */
 /*============================================================================*/
+extern const S_STAT cas_STAT[E_TSK_N_OF];
 volatile T_UBYTE rub_Tick_Flag = 0;
 volatile T_UWORD raub_DynConuter[E_TSK_N_OF];
 /*============================================================================*/
+
 void ISR_Tick(void){
 	if( PIT.CH[0].TFLG.B.TIF ){
 		
